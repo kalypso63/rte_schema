@@ -1,0 +1,30 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "Add attributes for schema (itemprop, itemscope, itemtype)",
+        "emConf": {
+            "category": "misc",
+            "custom_category": "",
+            "dependsOn": "typo3 => 6.2.0-6.2.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "6.2.0-6.2.99",
+            "version": ""
+        },
+        "extensionKey": "rte_schema",
+        "name": "Schema prop for RTE",
+        "originalExtensionKey": "",
+        "persons": [],
+        "plugins": [],
+        "vendorName": "MV"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2015-06-11 08:33",
+        "extension_builder_version": "7.1.0",
+        "be_user": " (1)"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "mv/rte_schema",
+    "type": "typo3-cms-extension",
+    "description": "Schema.org for RTE",
+    "homepage": "",
+    "license": ["GPL-2.0+"],
+    "version": "0.0.1",
+    "autoload": {
+        "psr-4": {
+            "MV\\RteSchema\\": "Classes"
+        }
+    },
+    "replace": {
+        "rte_schema": "*"
+    }
+}

@@ -1,0 +1,5 @@
+/* Selectors for the schemaAttr plugin of htmlArea RTE */
+.htmlarea-action-schemaattr-insert {
+    background-image: url('../Images/icon-attr.png') !important;
+    background-position: 0 0 !important;
+}
