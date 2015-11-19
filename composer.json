@@ -2,9 +2,9 @@
     "name": "mv/rte_schema",
     "type": "typo3-cms-extension",
     "description": "Schema.org for RTE",
-    "homepage": "",
+    "homepage": "http://typo3.org",
     "license": ["GPL-2.0+"],
-    "version": "0.0.1",
+    "version": "1.0.1",
     "autoload": {
         "psr-4": {
             "MV\\RteSchema\\": "Classes"

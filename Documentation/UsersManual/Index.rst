@@ -20,6 +20,12 @@ Users manual
 
 	Default Backend view for TSCONFIG
 
+.. figure:: ../Images/UserManual/RTEButtonView.png
+	:width: 500px
+	:alt: RTE view
+
+	Select text and click on top button
+
 **Custom RTE**
 
 .. code-block:: xml
