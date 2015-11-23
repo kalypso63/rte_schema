@@ -1,7 +1,11 @@
 {
-    "name": "mv/rte_schema",
+    "name": "kalypso63/rte_schema",
     "type": "typo3-cms-extension",
     "description": "Schema.org for RTE",
+    "keywords": [
+        "TYPO3",
+        "extension"
+    ],
     "homepage": "http://typo3.org",
     "license": ["GPL-2.0+"],
     "version": "1.0.1",
