@@ -3,7 +3,6 @@ namespace MV\RteSchema\Extension;
 
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Rtehtmlarea\RteHtmlAreaApi;
-use TYPO3\CMS\Core\Utility\DebugUtility;
 
 /***************************************************************
  *  Copyright notice
@@ -70,7 +69,7 @@ class SchemaAttr extends RteHtmlAreaApi {
             uasort($schema['types'], array($this, 'compareLabels'));
             uasort($schema['properties'], array($this, 'compareLabels'));
             // Insert no type and no property entries
-            if ($this->htmlAreaRTE->is_FE()) {
+            if ($this->isFrontend()) {
                 $noSchema = $GLOBALS['TSFE']->getLLL('No type', $this->LOCAL_LANG);
                 $noProperty = $GLOBALS['TSFE']->getLLL('No property', $this->LOCAL_LANG);
             } else {
